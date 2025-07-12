@@ -8,7 +8,16 @@
 ---
 
 This project aims to predict soil nutrient levels (in ppm) to eventually estimate the nutrient gap for African farms, helping optimize fertilizer application for maize production. The nutrient gap is the difference between the required nutrients for a target maize yield and the nutrients available in the soil.
-
+## Table of Contents
+- [Problem Statement](#problem-statement)
+- [Dataset](#dataset)
+- [Nutrient Gap Formula (Background)](#nutrient-gap-formulabackground)
+- [Project Organization](#project-organization)
+- [Setup Instructions](#setup-instructions)
+- [Current Progress](#current-progress)
+- [Next Steps](#next-steps)
+- [Acknowledgements](#acknowledgements)
+  
 ## Problem Statement
 ---
 Farmers need accurate information on soil nutrient deficiencies to apply the right amount of fertilizer. Over- or under-application can lead to wasted resources or poor crop yields.
@@ -149,7 +158,7 @@ pip install -r requirements.txt
 
 
 
-## 🤝 Acknowledgements
+##  Acknowledgements
 
 - [Zindi Africa](https://zindi.africa/) for the dataset and challenge
 - Agronomists and researchers whose work informed the nutrient gap formula
