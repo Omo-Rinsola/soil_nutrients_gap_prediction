@@ -6,7 +6,7 @@
 
 # Soil Nutrient Gap Prediction
 ---
-
+ 
 This project aims to predict soil nutrient levels (in ppm) to eventually estimate the nutrient gap for African farms, helping optimize fertilizer application for maize production. The nutrient gap is the difference between the required nutrients for a target maize yield and the nutrients available in the soil.
 ## Table of Contents
 - [Problem Statement](#problem-statement)
