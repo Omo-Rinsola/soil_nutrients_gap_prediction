@@ -4,25 +4,32 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-# 🌱 Soil Nutrient Gap Prediction
+# Soil Nutrient Gap Prediction
+## Overview
 
-This project focuses on predicting **soil nutrient levels (in ppm)** using environmental and agronomic data from African farms. The predicted values can later be used to compute the **nutrient gap**, which tells how much more of each nutrient a farmer needs to apply to achieve optimal crop yields.
-
+This project aims to predict soil nutrient levels (in ppm) to eventually estimate the nutrient gap for African farms, helping optimize fertilizer application for maize production. The nutrient gap is the difference between the required nutrients for a target maize yield and the nutrients available in the soil.
 ---
 
-## 📘 Background
+## Dataset
 
-The dataset was obtained from the **[Main Soil Prediction Challenge on Zindi](https://zindi.africa/)** and contains:
+The dataset was obtained from the **[Amini Soil Prediction Challengeon Zindi]([https://zindi.africa/](https://zindi.africa/competitions/amini-soil-prediction-challenge))** and contains:
 
 - Measured **soil chemical properties** (in ppm)
 - **Environmental and spatial features**
 - **Bulk density** and other agronomic indicators
 
-🧪 Soil samples reflect conditions at **20 cm depth**, which is standard for assessing nutrient availability for crops like maize.
+ Soil samples reflect conditions at **20 cm depth**, which is standard for assessing nutrient availability for crops like maize.
 
 ---
+## Problem Statement
 
-## 🧮 Nutrient Gap Formula
+Farmers need accurate information on soil nutrient deficiencies to apply the right amount of fertilizer. Over- or under-application can lead to wasted resources or poor crop yields.
+
+This project focuses on predicting nutrient concentrations (in ppm) based on soil and environmental features. The predicted values can then be used to calculate the nutrient gap (kg/ha) by applying agronomic formulas, helping farmers make data-driven fertilization decisions.
+---
+
+
+## Nutrient Gap Formula(Background)
 
 Although this project focuses on **predicting nutrients in ppm**, the values can later be converted into the nutrient gap using:
 
@@ -96,9 +103,8 @@ Gap = Required_kg_per_ha - Available_kg_per_ha
 --------
 
 
----
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. **Clone the repo:**
 
@@ -122,7 +128,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚧 Current Progress
+##  Current Progress
 
 - ✅ EDA and data cleaning
 - ✅ Feature engineering
@@ -132,19 +138,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📊 Sample Model Output
-
-Example of predicted nutrient levels (ppm) on a test set:
-
-```bash
-Predicted N (ppm): 15.6
-Predicted P (ppm): 9.4
-Predicted K (ppm): 45.2
-```
-
----
-
-## 📌 Next Steps
+##  Next Steps
 
 - [ ] Apply nutrient gap formula to model predictions
 - [ ] Visualize gaps across regions
@@ -158,11 +152,6 @@ Predicted K (ppm): 45.2
 - [Zindi Africa](https://zindi.africa/) for the dataset and challenge
 - Agronomists and researchers whose work informed the nutrient gap formula
 
----
+-
 
-## 📬 Contact
-
-**Omorinsola Makinde**  
-📧 [Insert your email or LinkedIn if you want]  
-🌍 Passionate about AI for agriculture and real-world impact.
 
